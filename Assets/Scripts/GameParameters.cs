@@ -1,16 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class GameParameters : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+﻿namespace Cloud.GameParameters{
+    public class GameParameter{
+        public static readonly float DEFAULT_MOVE_SPEED = 0.4f;
+    }
 }

@@ -1,5 +1,12 @@
 ﻿namespace Cloud.GameEnums{
     
+    public enum Direction{
+        None,
+
+        Left,
+        Right,
+    }
+
     public enum MoverMode{
         None,
 
