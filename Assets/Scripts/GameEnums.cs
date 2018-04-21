@@ -1,16 +1,15 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿namespace Cloud.GameEnums{
+    
+    public enum MoverMode{
+        None,
 
-public class GameEnums : MonoBehaviour {
+        Tap,
+        Gyro,
+        Auto,
+    }
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public enum PlayerMode{
+        Mover,
+        Supporter,
+    }
 }
